@@ -17,3 +17,49 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here
 
+Implementation details:
+We can't change the internal Id for the Agent. So, the first ticket would give the ability to the Facility through an interface to list all the Agents that they've worked until now. The Facility User could get into each Agent and change the Agent ExternalId to a known number or code for them (the Facility).
+
+
+
+
+
+Ticket #1
+---------
+Acceptance criteria:
+- A new Feature to show all the Agents that have worked at least once with the Facility must available at the menu for the Facility User;
+
+Hours: 
+- 0.5 hours to add new item to the menu;
+-------------------------------------------------------------
+
+
+Ticket #2
+---------
+Acceptance criteria:
+- A new column called ExternalId is created in the table "Agent X Facility";
+
+Hours:
+- 0.5 hours to create new column for an Agent x Facility relationship;
+-------------------------------------------------------------
+
+
+Ticket #3
+---------
+Acceptance criteria:
+- This "Agent X Facility" List shows the ExternalId for each one of the Agents and "Not Defined" for null values;
+
+Hours:
+- 1 hours to add new column to the Listing (check view size, for smartphones, portrait, landscape, etc);
+-------------------------------------------------------------
+
+
+Ticket #4
+---------
+Acceptance criteria:
+- The Facility User can see a new Field for each "Agent x Facility" called "External Id" and change it;
+
+
+Hours:
+- 2 hours to add new field to the "Agent x Facility" entry and disposition and check the given data (both frontend and backend);
+-------------------------------------------------------------
